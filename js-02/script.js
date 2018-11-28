@@ -243,8 +243,30 @@
 	// console.log(nome);
 	// for( let i = 0);
 
-    const nome = "paulo";
+    const turma = [
+    	{
+    		id:1,
+    		nome:'paulo',
+    		polo:'cpz'
+    	},
+    	{
+    		id:2,
+    		nome:'helo',
+    		polo:'cpz'
+    	},
+    	{
+    		id:2,
+    		nome:'cris',
+    		polo:'cpz'
+    	}
+    ]
 
-    nome = "rafael";
+const nomes = turma.filter(estudante =>  {
+	return estudante.polo === 'pzr'
+})
 
-    console.log(nome);
+
+    console.log(turma.nomes)
+
+
+    
